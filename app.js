@@ -48,7 +48,7 @@ app.post("/", function(req, res){
             console.log(JSON.parse(data));
         })
     })
-    //  request.write(jsondata);
+     request.write(jsondata);
      request.end();
 });
 
@@ -64,7 +64,8 @@ app.listen(process.env.PORT || 3000, function(){
     console.log("server is running");
 });
 
-// api Key
-// aee63af6800d3c3bbabbae29fbd57c4d-us14
-// 72869a3174.
+//  api Key
+//  aee63af6800d3c3bbabbae29fbd57c4d-us14
+//  72869a3174.
+// https://protected-caverns-81249.herokuapp.com/
 
